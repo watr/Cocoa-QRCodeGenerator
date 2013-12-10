@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F5E02E21854206B007015B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5E02E11854206B007015B8 /* Cocoa.framework */; };
+		2F5E02EC1854206B007015B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E02EA1854206B007015B8 /* InfoPlist.strings */; };
+		2F5E02EE1854206B007015B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E02ED1854206B007015B8 /* main.m */; };
+		2F5E02F21854206B007015B8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E02F01854206B007015B8 /* Credits.rtf */; };
+		2F5E02F51854206B007015B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E02F41854206B007015B8 /* AppDelegate.m */; };
+		2F5E02F81854206B007015B8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E02F61854206B007015B8 /* MainMenu.xib */; };
+		2F5E02FA1854206B007015B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E02F91854206B007015B8 /* Images.xcassets */; };
+		2F5E03011854206B007015B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5E03001854206B007015B8 /* XCTest.framework */; };
+		2F5E03021854206B007015B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5E02E11854206B007015B8 /* Cocoa.framework */; };
+		2F5E030A1854206B007015B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E03081854206B007015B8 /* InfoPlist.strings */; };
+		2F5E030C1854206B007015B8 /* CocoaQRCodeGeneratorDemo_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E030B1854206B007015B8 /* CocoaQRCodeGeneratorDemo_OSXTests.m */; };
+		2F5E03181854211D007015B8 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E03171854211D007015B8 /* QRCodeGenerator.m */; };
+		2F5E03191854211D007015B8 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E03171854211D007015B8 /* QRCodeGenerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F5E03031854206B007015B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F5E02D61854206B007015B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F5E02DD1854206B007015B8;
+			remoteInfo = "CocoaQRCodeGeneratorDemo-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F5E02DE1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaQRCodeGeneratorDemo-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5E02E11854206B007015B8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2F5E02E41854206B007015B8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2F5E02E51854206B007015B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2F5E02E61854206B007015B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F5E02E91854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaQRCodeGeneratorDemo-OSX-Info.plist"; sourceTree = "<group>"; };
+		2F5E02EB1854206B007015B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F5E02ED1854206B007015B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F5E02EF1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaQRCodeGeneratorDemo-OSX-Prefix.pch"; sourceTree = "<group>"; };
+		2F5E02F11854206B007015B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2F5E02F31854206B007015B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F5E02F41854206B007015B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F5E02F71854206B007015B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2F5E02F91854206B007015B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F5E02FF1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CocoaQRCodeGeneratorDemo-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5E03001854206B007015B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2F5E03071854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaQRCodeGeneratorDemo-OSXTests-Info.plist"; sourceTree = "<group>"; };
+		2F5E03091854206B007015B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F5E030B1854206B007015B8 /* CocoaQRCodeGeneratorDemo_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaQRCodeGeneratorDemo_OSXTests.m; sourceTree = "<group>"; };
+		2F5E03161854211D007015B8 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		2F5E03171854211D007015B8 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F5E02DB1854206B007015B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5E02E21854206B007015B8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5E02FC1854206B007015B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5E03021854206B007015B8 /* Cocoa.framework in Frameworks */,
+				2F5E03011854206B007015B8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F5E02D51854206B007015B8 = {
+			isa = PBXGroup;
+			children = (
+				2F5E02E71854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX */,
+				2F5E03051854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSXTests */,
+				2F5E02E01854206B007015B8 /* Frameworks */,
+				2F5E02DF1854206B007015B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F5E02DF1854206B007015B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E02DE1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX.app */,
+				2F5E02FF1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F5E02E01854206B007015B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E02E11854206B007015B8 /* Cocoa.framework */,
+				2F5E03001854206B007015B8 /* XCTest.framework */,
+				2F5E02E31854206B007015B8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F5E02E31854206B007015B8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E02E41854206B007015B8 /* AppKit.framework */,
+				2F5E02E51854206B007015B8 /* CoreData.framework */,
+				2F5E02E61854206B007015B8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2F5E02E71854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E03151854211D007015B8 /* QRCodeGenerator */,
+				2F5E02F31854206B007015B8 /* AppDelegate.h */,
+				2F5E02F41854206B007015B8 /* AppDelegate.m */,
+				2F5E02F61854206B007015B8 /* MainMenu.xib */,
+				2F5E02F91854206B007015B8 /* Images.xcassets */,
+				2F5E02E81854206B007015B8 /* Supporting Files */,
+			);
+			path = "CocoaQRCodeGeneratorDemo-OSX";
+			sourceTree = "<group>";
+		};
+		2F5E02E81854206B007015B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E02E91854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX-Info.plist */,
+				2F5E02EA1854206B007015B8 /* InfoPlist.strings */,
+				2F5E02ED1854206B007015B8 /* main.m */,
+				2F5E02EF1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX-Prefix.pch */,
+				2F5E02F01854206B007015B8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F5E03051854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E030B1854206B007015B8 /* CocoaQRCodeGeneratorDemo_OSXTests.m */,
+				2F5E03061854206B007015B8 /* Supporting Files */,
+			);
+			path = "CocoaQRCodeGeneratorDemo-OSXTests";
+			sourceTree = "<group>";
+		};
+		2F5E03061854206B007015B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E03071854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSXTests-Info.plist */,
+				2F5E03081854206B007015B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F5E03151854211D007015B8 /* QRCodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E03161854211D007015B8 /* QRCodeGenerator.h */,
+				2F5E03171854211D007015B8 /* QRCodeGenerator.m */,
+			);
+			name = QRCodeGenerator;
+			path = ../../QRCodeGenerator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F5E02DD1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5E030F1854206B007015B8 /* Build configuration list for PBXNativeTarget "CocoaQRCodeGeneratorDemo-OSX" */;
+			buildPhases = (
+				2F5E02DA1854206B007015B8 /* Sources */,
+				2F5E02DB1854206B007015B8 /* Frameworks */,
+				2F5E02DC1854206B007015B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaQRCodeGeneratorDemo-OSX";
+			productName = "CocoaQRCodeGeneratorDemo-OSX";
+			productReference = 2F5E02DE1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F5E02FE1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5E03121854206B007015B8 /* Build configuration list for PBXNativeTarget "CocoaQRCodeGeneratorDemo-OSXTests" */;
+			buildPhases = (
+				2F5E02FB1854206B007015B8 /* Sources */,
+				2F5E02FC1854206B007015B8 /* Frameworks */,
+				2F5E02FD1854206B007015B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F5E03041854206B007015B8 /* PBXTargetDependency */,
+			);
+			name = "CocoaQRCodeGeneratorDemo-OSXTests";
+			productName = "CocoaQRCodeGeneratorDemo-OSXTests";
+			productReference = 2F5E02FF1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F5E02D61854206B007015B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = puts.wataruhash.info;
+				TargetAttributes = {
+					2F5E02FE1854206B007015B8 = {
+						TestTargetID = 2F5E02DD1854206B007015B8;
+					};
+				};
+			};
+			buildConfigurationList = 2F5E02D91854206B007015B8 /* Build configuration list for PBXProject "CocoaQRCodeGeneratorDemo-OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F5E02D51854206B007015B8;
+			productRefGroup = 2F5E02DF1854206B007015B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F5E02DD1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX */,
+				2F5E02FE1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F5E02DC1854206B007015B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5E02EC1854206B007015B8 /* InfoPlist.strings in Resources */,
+				2F5E02FA1854206B007015B8 /* Images.xcassets in Resources */,
+				2F5E02F21854206B007015B8 /* Credits.rtf in Resources */,
+				2F5E02F81854206B007015B8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5E02FD1854206B007015B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5E030A1854206B007015B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F5E02DA1854206B007015B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5E02F51854206B007015B8 /* AppDelegate.m in Sources */,
+				2F5E02EE1854206B007015B8 /* main.m in Sources */,
+				2F5E03181854211D007015B8 /* QRCodeGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5E02FB1854206B007015B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5E030C1854206B007015B8 /* CocoaQRCodeGeneratorDemo_OSXTests.m in Sources */,
+				2F5E03191854211D007015B8 /* QRCodeGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F5E03041854206B007015B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F5E02DD1854206B007015B8 /* CocoaQRCodeGeneratorDemo-OSX */;
+			targetProxy = 2F5E03031854206B007015B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F5E02EA1854206B007015B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5E02EB1854206B007015B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F5E02F01854206B007015B8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5E02F11854206B007015B8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2F5E02F61854206B007015B8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5E02F71854206B007015B8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2F5E03081854206B007015B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5E03091854206B007015B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F5E030D1854206B007015B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2F5E030E1854206B007015B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F5E03101854206B007015B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaQRCodeGeneratorDemo-OSX/CocoaQRCodeGeneratorDemo-OSX-Prefix.pch";
+				INFOPLIST_FILE = "CocoaQRCodeGeneratorDemo-OSX/CocoaQRCodeGeneratorDemo-OSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F5E03111854206B007015B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaQRCodeGeneratorDemo-OSX/CocoaQRCodeGeneratorDemo-OSX-Prefix.pch";
+				INFOPLIST_FILE = "CocoaQRCodeGeneratorDemo-OSX/CocoaQRCodeGeneratorDemo-OSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2F5E03131854206B007015B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaQRCodeGeneratorDemo-OSX.app/Contents/MacOS/CocoaQRCodeGeneratorDemo-OSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaQRCodeGeneratorDemo-OSX/CocoaQRCodeGeneratorDemo-OSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CocoaQRCodeGeneratorDemo-OSXTests/CocoaQRCodeGeneratorDemo-OSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2F5E03141854206B007015B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaQRCodeGeneratorDemo-OSX.app/Contents/MacOS/CocoaQRCodeGeneratorDemo-OSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaQRCodeGeneratorDemo-OSX/CocoaQRCodeGeneratorDemo-OSX-Prefix.pch";
+				INFOPLIST_FILE = "CocoaQRCodeGeneratorDemo-OSXTests/CocoaQRCodeGeneratorDemo-OSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F5E02D91854206B007015B8 /* Build configuration list for PBXProject "CocoaQRCodeGeneratorDemo-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5E030D1854206B007015B8 /* Debug */,
+				2F5E030E1854206B007015B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5E030F1854206B007015B8 /* Build configuration list for PBXNativeTarget "CocoaQRCodeGeneratorDemo-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5E03101854206B007015B8 /* Debug */,
+				2F5E03111854206B007015B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F5E03121854206B007015B8 /* Build configuration list for PBXNativeTarget "CocoaQRCodeGeneratorDemo-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5E03131854206B007015B8 /* Debug */,
+				2F5E03141854206B007015B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F5E02D61854206B007015B8 /* Project object */;
+}
